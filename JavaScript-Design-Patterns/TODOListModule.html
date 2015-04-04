@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <div id="ToDoList">
+        <h1>Tuesday TODO List</h1>
+        <div class="container">
+            <section>
+                <div>
+                    <h2>Shopping List</h2>
+                    <ul type="none">
+                        <li><input class="itemList" type="checkbox" id="Air-freshener" checked="checked"><label for="Air-freshener">Air-freshener</label></li>
+                        <li><input class="itemList" type="checkbox" id="Pampers" ><label for="Pampers">Pampers</label></li>
+                        <li><input class="itemList" type="checkbox" id="Newspaper" checked="checked"><label for="Newspaper">Newspaper</label></li>
+                        <li><input class="itemList" type="checkbox" id="Paper" ><label for="Paper">Paper</label></li>
+                    </ul>
+                </div>
+                <input class="addNewItemContent" type="text" placeholder="Add item..." />
+                <input class="addNewItemButton" type="button" value="+" />
+            </section>
+            <section>
+                <div>
+                    <h2>Business</h2>
+                    <ul type="none">
+                        <li><input class="itemList" type="checkbox" id="Inspect fiscal year report" ><label for="Inspect fiscal year report">Inspect fiscal year report</label></li>
+                        <li><input class="itemList" type="checkbox" id="Lunch with board of directors" ><label for="Lunch with board of directors">Lunch with board of directors</label></li>
+                        <li><input class="itemList" type="checkbox" id="Fire Jackson" ><label for="Fire Jackson">Fire Jackson</label></li>
+                        <li><input class="itemList" type="checkbox" id="Take a nap" ><label for="Take a nap">Take a nap</label></li>
+                        <li><input class="itemList" type="checkbox" id="Arrange meeting with investors" ><label for="Arrange meeting with investors">Arrange meeting with investors</label></li>
+                    </ul>
+                </div>
+                <input class="addNewItemContent" type="text" placeholder="Add item..." />
+                <input class="addNewItemButton" type="button" value="+" />
+            </section>
+        </div>
+        <input type="text" placeholder="New Section..." />
+        <input class="addNewSectionButton" type="button" value="New Section" />
+        <script type="application/javascript" src="todoModule-container.js" charset="utf-8"></script>
+        <script type="application/javascript" src="todoModule-section.js" charset="utf-8"></script>
+        <script type="application/javascript" src="todoModule-item.js" charset="utf-8"></script>
+        <script type="application/javascript" src="addItem.js" charset="utf-8"></script>
+        <script type="application/javascript" src="addSection.js" charset="utf-8"></script>
+        <script type="application/javascript" src="changeItemsStyle.js" charset="utf-8"></script>
+</body>
+</html>

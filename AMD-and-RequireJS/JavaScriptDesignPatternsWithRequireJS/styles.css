@@ -1,0 +1,40 @@
+body {
+    width: 50%;
+    border: solid 2px #000;
+    margin: auto;
+    margin-top: 20px;
+}
+
+div {
+    padding: 5px;
+    text-align: right;
+    margin: 10px;
+}
+
+div#container > div {
+    border: 1px solid #000;
+}
+
+div#container > div > div > div {
+    display: inline-block;
+    width: 90%;
+    text-align: left;
+    border-bottom: 1px solid #000;
+}
+
+h1 {
+    text-align: center;
+    margin: 0;
+}
+
+h2{
+    text-align: center;
+    font-style: italic;
+}
+
+h3 {
+    font-size: 24px;
+    text-align: right;
+    text-decoration: solid;
+    margin: 0;
+}
